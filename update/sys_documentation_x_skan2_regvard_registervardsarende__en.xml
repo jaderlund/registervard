@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Registervårdsärende" language="en" table="x_skan2_regvard_registervardsarende">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Registervårdsärende</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <plural>Registervårdsärendes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>JADGLE</sys_created_by>
+            <sys_created_on>2018-05-21 12:27:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b3d2bf440f925b007527715ce1050ee4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Registervårdsärende</sys_name>
+            <sys_package display_value="Registervård" source="x_skan2_regvard">0bd2ff040f925b007527715ce1050e80</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Registervård">0bd2ff040f925b007527715ce1050e80</sys_scope>
+            <sys_update_name>sys_documentation_x_skan2_regvard_registervardsarende__en</sys_update_name>
+            <sys_updated_by>JADGLE</sys_updated_by>
+            <sys_updated_on>2018-05-21 12:27:23</sys_updated_on>
+            <u_logg/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_skan2_regvard_arendetyp" table="x_skan2_regvard_registervardsarende" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ändra överskott/index</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>564002230f302740f5a7f88ce1050eab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:28</sys_updated_on>
+            <value>Ändra överskott/index</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ändra skattetyp</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fd40ceef0ffce340f5a7f88ce1050ede</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:25</sys_updated_on>
+            <value>Ändra skattetyp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ändra status</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7940ceef0ffce340f5a7f88ce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:26</sys_updated_on>
+            <value>Ändra status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ärvning</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>524002230f302740f5a7f88ce1050e72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:27</sys_updated_on>
+            <value>Ärvning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Återupplivning</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3940ceef0ffce340f5a7f88ce1050ee6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:25</sys_updated_on>
+            <value>Återupplivning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bodelning</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>534042230f302740f5a7f88ce1050ecc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:32</sys_updated_on>
+            <value>Bodelning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Byte av PNR</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>064002230f302740f5a7f88ce1050e36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:27</sys_updated_on>
+            <value>Byte av PNR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dödsfall</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b540ceef0ffce340f5a7f88ce1050eec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:26</sys_updated_on>
+            <value>Dödsfall</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Felaktiga fribrevsvärden</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1a4002230f302740f5a7f88ce1050e85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:28</sys_updated_on>
+            <value>Felaktiga fribrevsvärden</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Försäkring upphörd (slutåb?)</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>354002230f302740f5a7f88ce1050e0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:26</sys_updated_on>
+            <value>Försäkring upphörd (slutåb?)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Övrigt</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ad40ceef0ffce340f5a7f88ce1050ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:25</sys_updated_on>
+            <value>Övrigt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rätta försäkringsdelar</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b940ceef0ffce340f5a7f88ce1050ef3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:26</sys_updated_on>
+            <value>Rätta försäkringsdelar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reservhopp</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:43:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>99804a630f302740f5a7f88ce1050e3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:43:29</sys_updated_on>
+            <value>Reservhopp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rullning</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>464002230f302740f5a7f88ce1050e55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:27</sys_updated_on>
+            <value>Rullning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sammanslagning</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ca4002230f302740f5a7f88ce1050e2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:26</sys_updated_on>
+            <value>Sammanslagning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_arendetyp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TK-dumpar</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence>0</sequence>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f24042230f302740f5a7f88ce1050e58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:30</sys_updated_on>
+            <value>TK-dumpar</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_skan2_regvard_arendetyp</element>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>SCHPEE</sys_created_by>
+            <sys_created_on>2018-10-03 07:42:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a140ceef0ffce340f5a7f88ce1050edb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_skan2_regvard_arendetyp</sys_name>
+            <sys_package display_value="Registervård" source="x_skan2_regvard">0bd2ff040f925b007527715ce1050e80</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Registervård">0bd2ff040f925b007527715ce1050e80</sys_scope>
+            <sys_update_name>sys_choice_x_skan2_regvard_registervardsarende_x_skan2_regvard_arendetyp</sys_update_name>
+            <sys_updated_by>SCHPEE</sys_updated_by>
+            <sys_updated_on>2018-10-03 07:42:25</sys_updated_on>
+            <u_logg/>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

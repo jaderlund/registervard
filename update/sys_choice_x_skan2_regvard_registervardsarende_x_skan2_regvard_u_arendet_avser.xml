@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_skan2_regvard_u_arendet_avser" table="x_skan2_regvard_registervardsarende" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_u_arendet_avser</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Återkommande rättning</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence/>
+            <sys_created_by>JADGLE</sys_created_by>
+            <sys_created_on>2018-05-23 07:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>08b5c1bc0f129700f5a7f88ce1050ea8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JADGLE</sys_updated_by>
+            <sys_updated_on>2018-05-23 07:46:26</sys_updated_on>
+            <value>Återkommande rättning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_u_arendet_avser</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fråga</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence/>
+            <sys_created_by>JADGLE</sys_created_by>
+            <sys_created_on>2018-05-23 07:45:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7475c9b80f129700f5a7f88ce1050e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JADGLE</sys_updated_by>
+            <sys_updated_on>2018-05-23 07:45:15</sys_updated_on>
+            <value>Fråga</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_u_arendet_avser</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rättning</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence/>
+            <sys_created_by>JADGLE</sys_created_by>
+            <sys_created_on>2018-05-23 07:44:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b45505bc0f129700f5a7f88ce1050ed5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JADGLE</sys_updated_by>
+            <sys_updated_on>2018-05-23 07:44:57</sys_updated_on>
+            <value>Rättning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_skan2_regvard_u_arendet_avser</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utsökning</label>
+            <language>en</language>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sequence/>
+            <sys_created_by>JADGLE</sys_created_by>
+            <sys_created_on>2018-05-23 07:45:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d08545bc0f129700f5a7f88ce1050e77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JADGLE</sys_updated_by>
+            <sys_updated_on>2018-05-23 07:45:31</sys_updated_on>
+            <value>Utsökning</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_skan2_regvard_u_arendet_avser</element>
+            <name>x_skan2_regvard_registervardsarende</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>JADGLE</sys_created_by>
+            <sys_created_on>2018-05-23 07:44:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>37abef3d0f1423007527715ce1050ece</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_skan2_regvard_u_arendet_avser</sys_name>
+            <sys_package display_value="Registervård" source="x_skan2_regvard">0bd2ff040f925b007527715ce1050e80</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Registervård">0bd2ff040f925b007527715ce1050e80</sys_scope>
+            <sys_update_name>sys_choice_x_skan2_regvard_registervardsarende_x_skan2_regvard_u_arendet_avser</sys_update_name>
+            <sys_updated_by>JADGLE</sys_updated_by>
+            <sys_updated_on>2018-05-23 07:44:57</sys_updated_on>
+            <u_logg/>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

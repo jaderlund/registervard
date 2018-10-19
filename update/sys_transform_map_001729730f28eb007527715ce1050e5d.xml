@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Hämta bilaga</name>
+        <order>100</order>
+        <run_business_rules>false</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[/**
+ * For variables go to: http://wiki.service-now.com/index.php?title=Import_Sets_portal
+ **/ 
+]]></script>
+        <source_table>u_qc_filer</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>SCHPEE</sys_created_by>
+        <sys_created_on>2018-09-21 14:15:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>001729730f28eb007527715ce1050e5d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hämta bilaga</sys_name>
+        <sys_package display_value="Registervård" source="x_skan2_regvard">0bd2ff040f925b007527715ce1050e80</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Registervård">0bd2ff040f925b007527715ce1050e80</sys_scope>
+        <sys_update_name>sys_transform_map_001729730f28eb007527715ce1050e5d</sys_update_name>
+        <sys_updated_by>SCHPEE</sys_updated_by>
+        <sys_updated_on>2018-09-21 14:15:19</sys_updated_on>
+        <target_table>x_skan2_regvard_registervardsarende</target_table>
+        <u_logg/>
+    </sys_transform_map>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Registervård fil 2" max_length="40" name="x_skan2_regvard_import_fil_2" type="collection">
+        <element attributes="import_attribute_name=Assigned,edge_encryption_enabled=true" label="Assigned" max_length="40" name="u_assigned" type="string"/>
+        <element attributes="import_attribute_name=ClosedDate,edge_encryption_enabled=true" label="ClosedDate" max_length="40" name="u_closeddate" type="string"/>
+        <element attributes="import_attribute_name=CreationDate,edge_encryption_enabled=true" label="CreationDate" max_length="40" name="u_creationdate" type="string"/>
+        <element attributes="import_attribute_name=Description,edge_encryption_enabled=true" label="Description" max_length="4019" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=DevComments,edge_encryption_enabled=true" label="DevComments" max_length="1623" name="u_devcomments" type="string"/>
+        <element attributes="import_attribute_name=Fields,edge_encryption_enabled=true" label="Fields" max_length="2267" name="u_fields" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_ATTACHMENT,edge_encryption_enabled=true" label="Fields/BG_ATTACHMENT" max_length="40" name="u_fields_bg_attachment" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_BUG_ID,edge_encryption_enabled=true" label="Fields/BG_BUG_ID" max_length="40" name="u_fields_bg_bug_id" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_BUG_VER_STAMP,edge_encryption_enabled=true" label="Fields/BG_BUG_VER_STAMP" max_length="40" name="u_fields_bg_bug_ver_stamp" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_DETECTED_BY,edge_encryption_enabled=true" label="Fields/BG_DETECTED_BY" max_length="40" name="u_fields_bg_detected_by" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_DETECTION_DATE,edge_encryption_enabled=true" label="Fields/BG_DETECTION_DATE" max_length="40" name="u_fields_bg_detection_date" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_DEV_COMMENTS,edge_encryption_enabled=true" label="Fields/BG_DEV_COMMENTS" max_length="1623" name="u_fields_bg_dev_comments" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_REPRODUCIBLE,edge_encryption_enabled=true" label="Fields/BG_REPRODUCIBLE" max_length="40" name="u_fields_bg_reproducible" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_RESPONSIBLE,edge_encryption_enabled=true" label="Fields/BG_RESPONSIBLE" max_length="40" name="u_fields_bg_responsible" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_STATUS,edge_encryption_enabled=true" label="Fields/BG_STATUS" max_length="40" name="u_fields_bg_status" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_SUMMARY,edge_encryption_enabled=true" label="Fields/BG_SUMMARY" max_length="66" name="u_fields_bg_summary" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_01,edge_encryption_enabled=true" label="Fields/BG_USER_01" max_length="40" name="u_fields_bg_user_01" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_02,edge_encryption_enabled=true" label="Fields/BG_USER_02" max_length="40" name="u_fields_bg_user_02" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_03,edge_encryption_enabled=true" label="Fields/BG_USER_03" max_length="40" name="u_fields_bg_user_03" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_04,edge_encryption_enabled=true" label="Fields/BG_USER_04" max_length="40" name="u_fields_bg_user_04" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_05,edge_encryption_enabled=true" label="Fields/BG_USER_05" max_length="40" name="u_fields_bg_user_05" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_06,edge_encryption_enabled=true" label="Fields/BG_USER_06" max_length="40" name="u_fields_bg_user_06" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_07,edge_encryption_enabled=true" label="Fields/BG_USER_07" max_length="40" name="u_fields_bg_user_07" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_08,edge_encryption_enabled=true" label="Fields/BG_USER_08" max_length="40" name="u_fields_bg_user_08" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_09,edge_encryption_enabled=true" label="Fields/BG_USER_09" max_length="40" name="u_fields_bg_user_09" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_10,edge_encryption_enabled=true" label="Fields/BG_USER_10" max_length="40" name="u_fields_bg_user_10" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_USER_11,edge_encryption_enabled=true" label="Fields/BG_USER_11" max_length="40" name="u_fields_bg_user_11" type="string"/>
+        <element attributes="import_attribute_name=Fields/BG_VTS,edge_encryption_enabled=true" label="Fields/BG_VTS" max_length="40" name="u_fields_bg_vts" type="string"/>
+        <element attributes="import_attribute_name=ID,edge_encryption_enabled=true" label="ID" max_length="40" name="u_id" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="66" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Reproducible,edge_encryption_enabled=true" label="Reproducible" max_length="40" name="u_reproducible" type="string"/>
+        <element attributes="import_attribute_name=Responsible,edge_encryption_enabled=true" label="Responsible" max_length="40" name="u_responsible" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Type,edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

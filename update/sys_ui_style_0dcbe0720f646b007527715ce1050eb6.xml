@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>number</element>
+        <name>x_skan2_regvard_registervardsarende</name>
+        <style>background-color:tomato</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>JADGLE</sys_created_by>
+        <sys_created_on>2018-09-18 07:23:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0dcbe0720f646b007527715ce1050eb6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_skan2_regvard_registervardsarende</sys_name>
+        <sys_package display_value="Registervård" source="x_skan2_regvard">0bd2ff040f925b007527715ce1050e80</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Registervård">0bd2ff040f925b007527715ce1050e80</sys_scope>
+        <sys_update_name>sys_ui_style_0dcbe0720f646b007527715ce1050eb6</sys_update_name>
+        <sys_updated_by>JADGLE</sys_updated_by>
+        <sys_updated_on>2018-09-18 07:39:03</sys_updated_on>
+        <u_logg/>
+        <value>javascript:current.x_skan2_regvard_u_akut_arende == true</value>
+    </sys_ui_style>
+</record_update>

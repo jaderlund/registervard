@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>com_glideapp_questionset_default_question_editor</formatter>
+        <name>Show registervard variables</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>JADGLE</sys_created_by>
+        <sys_created_on>2018-05-23 09:04:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e57799f40f529700f5a7f88ce1050e37</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Show registervard variables</sys_name>
+        <sys_package display_value="Registervård" source="x_skan2_regvard">0bd2ff040f925b007527715ce1050e80</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Registervård">0bd2ff040f925b007527715ce1050e80</sys_scope>
+        <sys_update_name>sys_ui_formatter_e57799f40f529700f5a7f88ce1050e37</sys_update_name>
+        <sys_updated_by>JADGLE</sys_updated_by>
+        <sys_updated_on>2018-05-23 09:04:46</sys_updated_on>
+        <table>x_skan2_regvard_registervardsarende</table>
+        <type>formatter</type>
+        <u_logg/>
+    </sys_ui_formatter>
+</record_update>

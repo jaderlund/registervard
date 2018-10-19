@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd hh:mm:ss</date_format>
+        <map display_value="QC-ärenden transform">b7e80d730fa4eb007527715ce1050e1a</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script>answer = (function transformEntry(source) {&#13;
+&#13;
+var descTxt = "";&#13;
+&#13;
+descTxt += "Ärende-ID: " + source.u_id + "\n";&#13;
+&#13;
+ str = source.u_description.toString();&#13;
+var htmlFritt = str.replace(/&lt;[^&gt;]*&gt;/g, '');&#13;
+descTxt += htmlFritt + "\n";&#13;
+&#13;
+var devComments = source.u_fields_bg_dev_comments.toString();&#13;
+var utanHTML = devComments.replace(/&lt;[^&gt;]*&gt;/g, '');&#13;
+descTxt += "Imported Comments:\n" + utanHTML;&#13;
+&#13;
+return descTxt;&#13;
+})(source);</source_script>
+        <source_table>u_gamla_qc</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>SCHPEE</sys_created_by>
+        <sys_created_on>2018-09-21 12:06:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>607985730fa4eb007527715ce1050e38</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Registervård" source="x_skan2_regvard">0bd2ff040f925b007527715ce1050e80</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Registervård">0bd2ff040f925b007527715ce1050e80</sys_scope>
+        <sys_update_name>sys_transform_entry_607985730fa4eb007527715ce1050e38</sys_update_name>
+        <sys_updated_by>SCHPEE</sys_updated_by>
+        <sys_updated_on>2018-10-03 06:12:53</sys_updated_on>
+        <target_field>description</target_field>
+        <target_table>x_skan2_regvard_registervardsarende</target_table>
+        <u_logg/>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

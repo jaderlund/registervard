@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="hasLabels=true" audit="true" extends="task" label="Registervårdsärende" max_length="40" name="x_skan2_regvard_registervardsarende" sizeclass="33016" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Old QC Document name" max_length="500" name="u_qc_doc_name" type="string"/>
+        <element choice="1" label="Ärendetyp" max_length="40" name="x_skan2_regvard_arendetyp" type="choice">
+            <choice>
+                <element label="Ändra överskott/index" sequence="0" value="Ändra överskott/index"/>
+                <element label="Ändra skattetyp" sequence="0" value="Ändra skattetyp"/>
+                <element label="Ändra status" sequence="0" value="Ändra status"/>
+                <element label="Ärvning" sequence="0" value="Ärvning"/>
+                <element label="Återupplivning" sequence="0" value="Återupplivning"/>
+                <element label="Bodelning" sequence="0" value="Bodelning"/>
+                <element label="Byte av PNR" sequence="0" value="Byte av PNR"/>
+                <element label="Dödsfall" sequence="0" value="Dödsfall"/>
+                <element label="Felaktiga fribrevsvärden" sequence="0" value="Felaktiga fribrevsvärden"/>
+                <element label="Försäkring upphörd (slutåb?)" sequence="0" value="Försäkring upphörd (slutåb?)"/>
+                <element label="Övrigt" sequence="0" value="Övrigt"/>
+                <element label="Rätta försäkringsdelar" sequence="0" value="Rätta försäkringsdelar"/>
+                <element label="Reservhopp" sequence="0" value="Reservhopp"/>
+                <element label="Rullning" sequence="0" value="Rullning"/>
+                <element label="Sammanslagning" sequence="0" value="Sammanslagning"/>
+                <element label="TK-dumpar" sequence="0" value="TK-dumpar"/>
+            </choice>
+        </element>
+        <element label="Återkommande rättning" max_length="100" name="x_skan2_regvard_aterkommanderattning" type="string"/>
+        <element label="Akutärende" max_length="40" name="x_skan2_regvard_u_akut_arende" type="boolean"/>
+        <element choice="1" label="Ärendeslag" max_length="100" name="x_skan2_regvard_u_arendeslag" type="string">
+            <choice>
+                <element label="Backa/återställ försäkring" sequence="10" value="Backa/återställ försäkring"/>
+                <element label="Bodelning" sequence="20" value="Bodelning"/>
+                <element label="Dödsfall" sequence="30" value="Dödsfall"/>
+                <element label="Inflytt" sequence="40" value="Inflytt"/>
+                <element label="Kryssval" sequence="50" value="Kryssval"/>
+                <element label="Premierättning" sequence="70" value="Premierättning"/>
+                <element label="Rätta försäkringsdelar" sequence="80" value="Rätta försäkringsdelar"/>
+                <element label="Utbetalning" sequence="90" value="Utbetalning"/>
+                <element label="Utflytt" sequence="100" value="Utflytt"/>
+                <element label="Återupplivning" sequence="110" value="Återupplivning"/>
+                <element label="Ändra status" sequence="120" value="Ändra status"/>
+                <element label="Övrigt" sequence="130" value="Övrigt"/>
+            </choice>
+        </element>
+        <element label="Ärendet avser" max_length="100" name="x_skan2_regvard_u_arendet_avser" type="string"/>
+        <element label="Kravställare" max_length="32" name="x_skan2_regvard_u_kravststallare" reference="sys_user" reference_qual="active=true^first_nameISNOTEMPTY^EQ" reference_qual_condition="active=true^first_nameISNOTEMPTY^EQ" type="reference"/>
+        <element label="Urspr kravst" max_length="32" name="x_skan2_regvard_u_urspr_kravst" reference="sys_user" reference_qual="active=true^first_nameISNOTEMPTY^EQ" reference_qual_condition="active=true^first_nameISNOTEMPTY^EQ" type="reference"/>
+        <index name="index">
+            <element name="x_skan2_regvard_u_urspr_kravst"/>
+        </index>
+    </element>
+</database>

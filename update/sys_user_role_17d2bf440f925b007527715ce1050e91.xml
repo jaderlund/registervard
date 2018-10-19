@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_skan2_regvard.user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>JADGLE</sys_created_by>
+        <sys_created_on>2018-05-21 12:27:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>17d2bf440f925b007527715ce1050e91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_skan2_regvard.user</sys_name>
+        <sys_package display_value="Registervård" source="x_skan2_regvard">0bd2ff040f925b007527715ce1050e80</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Registervård">0bd2ff040f925b007527715ce1050e80</sys_scope>
+        <sys_update_name>sys_user_role_17d2bf440f925b007527715ce1050e91</sys_update_name>
+        <sys_updated_by>JADGLE</sys_updated_by>
+        <sys_updated_on>2018-05-21 12:27:21</sys_updated_on>
+        <u_logg/>
+    </sys_user_role>
+</record_update>

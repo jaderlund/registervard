@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Registervårdsärende">2e7bf0780f129700f5a7f88ce1050e2b</sc_cat_item>
+        <sc_category display_value="Registervårdsärenden">d5fb55b80f529700f5a7f88ce1050e3b</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>JADGLE</sys_created_by>
+        <sys_created_on>2018-09-20 10:37:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>be9b67530fe8ab007527715ce1050e9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Registervårdsärenden.Registervårdsärende</sys_name>
+        <sys_package display_value="Registervård" source="x_skan2_regvard">0bd2ff040f925b007527715ce1050e80</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Registervård">0bd2ff040f925b007527715ce1050e80</sys_scope>
+        <sys_update_name>sc_cat_item_category_be9b67530fe8ab007527715ce1050e9a</sys_update_name>
+        <sys_updated_by>JADGLE</sys_updated_by>
+        <sys_updated_on>2018-09-20 10:37:11</sys_updated_on>
+        <u_logg/>
+    </sc_cat_item_category>
+</record_update>
